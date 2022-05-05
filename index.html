@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <div class="container py-2">
+    <h1 class="heading p-3 fs-2 fw-bold text-info text-center">Add contact!</h1>
+    <div class="row mt-5">
+      <div class="col-7 border-end border-info border-2">
+        <form class="site-form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="site-label my-2 fs-4 text-info" for="name"> Name : 
+            <input class="site-input border-0 border-bottom border-info border-1" type="text" id="name" name="name" autofocus autocomplete="off" required>
+          </label>
+
+          <label class="site-label my-2 fs-4 text-info" for="surname"> Surname : 
+            <input class="site-input border-0 border-bottom border-info border-1" type="text" id="surname" name="surname" autocomplete="off">
+          </label>
+
+          <label class="site-label my-2 fs-4 text-info" for="relation"> Relation : 
+            <input class="site-input border-0 border-bottom border-info border-1" type="text" id="relation" name="relation" autocomplete="off">
+          </label>
+
+          <label class="site-label my-2 fs-4 text-info" for="number"> Number : 
+            <input class="site-input border-0 border-bottom border-info border-1" type="number" id="number" name="number" autocomplete="off" required>
+          </label>
+
+          <button class="add-btn d-block ms-2 mt-5 px-4 border-2 border-info bg-transparent fs-4 text-info" type="submit">Add</button>
+        </form>
+      </div>
+      
+      <div class="col-5">
+        <ul class="contact-list"></ul>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
