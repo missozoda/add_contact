@@ -1,3 +1,7 @@
 .site-input {
   outline: none;
 }
+
+.contact-list {
+  overflow-y: auto;
+}
