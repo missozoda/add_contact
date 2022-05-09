@@ -39,7 +39,7 @@ let createLi = function(name, surname, relation, number){
     let newPNumber = document.createElement("p");
     let newLinkNumber = document.createElement("a");
     newPNumber.setAttribute('class','m-0 p-0 text-info fw-bold');
-    newLinkNumber.setAttribute('class', 'fw-normal')
+    newLinkNumber.setAttribute('class', 'fw-normal text-info text-decoration-none')
     newLinkNumber.setAttribute('href', `tel:+${contacts[i].number}`)
     newLinkNumber.textContent = contacts[i].number;
     newPNumber.append("Number: ", newLinkNumber);
